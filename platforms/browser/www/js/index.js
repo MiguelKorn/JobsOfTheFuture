@@ -28,7 +28,8 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
-        setOptions();
+        // setOptions();
+        // swipeEvent();
     },
 
     // Update DOM on a Received Event
