@@ -9,23 +9,57 @@
   font = Arkip
 */
 @font-face {
-    font-family: Arkhip;
-    src: url(Arkhip_font.otf);
+    font-family: UbuntuMono;
+    src: url(font/UbuntuMono-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: UbuntuMono;
+    src: url(font/UbuntuMono-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: UbuntuMono;
+    src: url(font/UbuntuMono-Italic.ttf);
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: UbuntuMono;
+    src: url(font/UbuntuMono-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 
 @Media only screen and (max-width: 375px) {
-    body {
-        font-family: Arkhip, sans-serif;
-        background-color: #022949;
-        color: #f0f0f0;
+    html {
         -webkit-touch-callout: none; /* iOS Safari */
         -webkit-user-select: none; /* Safari */
         -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
-        user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome and Opera */
+        user-select: none;
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+
+    body {
+        top: 0;
+        left: 0;
+        margin: 0;
+        height: 640px;
+        font-family: UbuntuMono, sans-serif;
+        background-color: #022949;
+        color: #f0f0f0;
+        /* Non-prefixed version, currently
+                                   supported by Chrome and Opera */
+    }
+
+    h1 {
+        font-size: 3em;
     }
 
     h3 {
@@ -33,8 +67,211 @@
         margin: 0 auto;
     }
 
+    a {
+        text-decoration: none;
+    }
+
+    a, p {
+        font-size: 0.8em;
+        color: #f0f0f0;
+    }
+
+    ol {
+        list-style: none;
+        padding: 0;
+    }
+
+    .dot {
+        background: #f0f0f0;
+        border-radius: 50%;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        cursor: pointer;
+    }
+
+    .active {
+        background: #888;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+    }
+
+    .typed-cursor{
+        visibility: hidden;
+    }
+
+    #control-img {
+        height: 50vh;
+    }
+
+    #bg-img {
+        width: 100vw;
+        height: 640px;
+    }
+
     #app {
-        /*text-align: center;*/
+        /*background-size: contain;*/
+        /*background-repeat: no-repeat;*/
+        /*height: 100vh;*/
+        /*width: 100vw;*/
+    }
+
+    #job-char-img {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 30%;
+        position: absolute;
+        top: 45%;
+        left: 60%;
+    }
+
+    #m, #v {
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    #m img, #v img {
+        height: 50vh;
+    }
+
+    #m {
+        margin-right: 30px;
+    }
+
+    #job-num {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: #95989A;
+    }
+
+    #job-prev, #job-next {
+        display: inline-block;
+        font-size: 3em;
+        position: absolute;
+        top: 40%;
+    }
+
+    #job-prev {
+        left: 20px;
+    }
+
+    #job-next {
+        right: 20px;
+    }
+
+    #job-img {
+        display: inline-block;
+        height: 70vh;
+    }
+
+    #job-name {
+        font-size: 1em;
+        margin-bottom: 40px;
+    }
+
+    #job-start {
+        font-size: 1em;
+        padding: 15px 75px;
+        border-radius: 50px;
+    }
+
+    #to-scenario {
+        font-size: 1.3em;
+        padding: 9px 30px;
+        border-radius: 50px;
+    }
+
+    #start-btn {
+        font-size: 1.5em;
+        padding: 15px 30px;
+        border-radius: 50px;
+    }
+    #start-text {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+    #slider {
+        margin-bottom: 40px;
+    }
+
+    #speech-bubble {
+        background-color: #F0F0F0;
+        color: black;
+        position: absolute;
+        width: 80%;
+        margin-left: 10%;
+
+        -webkit-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.75);
+        box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.75);
+
+        /*top: 100px;*/
+
+        bottom: 400px;
+
+        opacity:0;
+    }
+
+    #speech-bubble.show {
+        opacity:1;
+    }
+
+    #speech-bubble::after {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 0;
+        height: 0;
+        border-right: 2em solid transparent;
+        border-top: 4em solid #F0F0F0;
+        right: 10%;
+    }
+
+    #job-text {
+        margin: 10px;
+    }
+
+    #job-tool {
+        min-height: 40px;
+    }
+
+    #prev, #next, #back {
+        display: inline-block;
+    }
+
+    #prev, #next {
+        width: 25px;
+        height: 25px;
+        font-size: 1.4em;
+        padding: 5px;
+        border-radius: 50%;
+        text-align: center;
+    }
+
+    #prev {
+        margin-left: 10px;
+    }
+
+    #next {
+
+    }
+
+    #back {
+        position: absolute;
+        right: 5%;
+    }
+
+    #char-img {
+        right: -25%;
+        bottom: 2%;
+        position: absolute;
+        height: 50%;
+    }
+
+    #char-img.show {
+        right: 15%;
     }
 
     .button {
@@ -56,9 +293,18 @@
         display: block;
     }
 
+    .hide {
+        /*display: none!important;*/
+        visibility: hidden !important;
+    }
+
+    .sc-name {
+        margin-top: 15px;
+    }
+
     /*.verhaal img {*/
-        /*height: 100px !important;*/
-        /*object-fit: cover;*/
-        /*width: 100%;*/
+    /*height: 100px !important;*/
+    /*object-fit: cover;*/
+    /*width: 100%;*/
     /*}*/
 }

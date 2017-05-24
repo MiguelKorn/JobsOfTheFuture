@@ -1,114 +1,87 @@
 {
   "scenarios": [
     {
-      "name": "scenario1",
+      "name": "european_renewal",
       "jobs": [
         {
-          "name": "job1",
+          "name": "Duurzame architectuur",
           "texts": [
-            {
-              "img": "job1-1.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job1-2.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job1-3.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            }
-          ]
+            "Bij deze baan streven wij naar een beteren klimaat. We zorgen ervoor dat de gebouwen duurzaam worden gebouwd en dat het loopt op groene stroom.",
+            "Kan door middel van zonnepanelen zijn of windenergie noem het maar op. Wij komen met een plan aan om de wereld groener te maken."
+          ],
+          "img": {
+            "bg": "duurzame_architectuur.png",
+            "m": "duurzame_architectuur_man.png",
+            "v": "duurzame_architectuur_vrouw.png"
+          }
         },
         {
-          "name": "job2",
+          "name": "Eye Reader developer",
           "texts": [
-            {
-              "img": "job2-1.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job2-2.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job2-3.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            }
-          ]
+            "Na de telefoon zijn er nog meer uitvindingen gedaan wat de telefoon verbeterd. Zo zijn wij uitgekomen op een lens.",
+            "De lens heeft een paar features zoals, gezicht en stemherkenning, je kan er alles op doen net als een smart phone. Het heeft ook gezondheid voordelen zoals, de harstslag functie.",
+            "Het zorgt ervoor dat op het moment dat je een hart aanval krijgt de ambulance en uw contactpersoon gelijk geinformeerd worden van uw locatie en status.",
+            "Zo kan de ambulance team sneller op locatie zijn en kunnen ze sneller levens redden."
+          ],
+          "img": {
+            "bg": "eyereader.png",
+            "m": "eyereader_man.png",
+            "v": "eyereader_vrouw.png"
+          }
         },
         {
-          "name": "job3",
+          "name": "Water Energie technicus",
           "texts": [
-            {
-              "img": "job3-1.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job3-2.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job3-3.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            }
-          ]
+            "Op kennis van water energie heb ik mijn baan uitgekozen. Ik heb verschillende taken zoals, het onderzoeken naar verbeteringen, het apparatuur controleren en de energie opslagen controleren.",
+            "De meeste tijd probeer ik verbeteringen te verzinnen in zowel opslag als opwekking van energie."
+          ],
+          "img": {
+            "bg": "water_onderzoeker.png",
+            "m": "waterenergie_man.png",
+            "v": "waterenergie_vrouw.png"
+          }
         }
       ]
     },
     {
-      "name": "scenario2",
+      "name": "international_alliances",
       "jobs": [
         {
-          "name": "job1",
+          "name": "Docent Chinees",
           "texts": [
-            {
-              "img": "job1-1.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job1-2.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job1-3.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            }
-          ]
+            "Als docent probeer ik de jongeren zo goed mogelijk Chinees praten, lezen en schrijven. In onze economie is het aantal jongeren wat naar Azië verhuisd erg groot.",
+            "De jongeren zoeken daar hun inkomen. Chinees docent zijn is erg belangrijk sinds 60% naar China verhuisd. Chinees leren duurt 2 á 3 jaar. Ik heb zelf 7 jaar in China gewoond en ben daar ook opgegroeid."
+          ],
+          "img": {
+            "bg": "docentchinees.png",
+            "m": "docent_man.png",
+            "v": "docent_vrouw.png"
+          }
         },
         {
-          "name": "job2",
+          "name": "Vervoersbedrijf",
           "texts": [
-            {
-              "img": "job2-1.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job2-2.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job2-3.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            }
-          ]
+            "Bij ons is er een tekort aan personeel en financiële middelen om ze aan te huren. Wij hebben dus veel meer taken op ons gekregen dan alleen de bus te repareren.",
+            "We moeten ze onderhouden, schoonhouden en besturen. Soms wordt dat nog met de hand gedaan soms automatisch van een afstand.",
+            "Mijn baan is wel een zekeren baan, Want we hebben altijd vervoer nodig."
+          ],
+          "img": {
+            "bg": "bus.png",
+            "m": "vervoersbedrijf_man.png",
+            "v": "vervoersbedrijf_vrouw.png"
+          }
         },
         {
-          "name": "job3",
+          "name": "Robotarm ontwerper",
           "texts": [
-            {
-              "img": "job3-1.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job3-2.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            },
-            {
-              "img": "job3-3.jpg",
-              "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut in purus id turpis fermentum tristique et a mauris. Nam commodo tortor nisi, eu consectetur nibh faucibus id. Ut vel nunc volutpat, finibus elit vitae, ornare eros."
-            }
-          ]
+            "Ik werk in Azië als robotarm ontwerper. Ik help met ontwerpen en verbeteren van de armen. Ze zorgen ervoor dat taken in de fabriek sneller verlopen.",
+            "Ze worden ook weleens als prothesen arm gebruikt voor mensen die hun arm zijn kwijt geraakt."
+          ],
+          "img": {
+            "bg": "robot_arm.png",
+            "m": "robotarm_man.png",
+            "v": "robotarm_vrouw.png"
+          }
         }
       ]
     }

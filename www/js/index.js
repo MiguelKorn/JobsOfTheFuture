@@ -30,6 +30,7 @@ var app = {
         this.receivedEvent('deviceready');
         // setOptions();
         // swipeEvent();
+        StatusBar.hide();
     },
 
     // Update DOM on a Received Event

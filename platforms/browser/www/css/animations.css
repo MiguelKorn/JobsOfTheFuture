@@ -1,0 +1,7 @@
+.char-animation {
+    transition: all 1s ease-out;
+}
+
+#speech-bubble {
+    transition:opacity 0.5s linear;
+}
